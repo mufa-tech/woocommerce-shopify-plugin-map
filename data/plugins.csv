@@ -1,0 +1,89 @@
+slug,name,category,shopify_equivalent,equivalent_type,migration_risk,distribution,notes
+woocommerce-google-analytics-integration,Google Analytics,Analytics,Google & YouTube channel (GA4),shopify-app,none,wordpress.org,
+woocommerce-google-analytics-pro,Google Analytics Pro,Analytics,Google & YouTube channel (GA4),shopify-app,none,premium or third-party,
+duracelltomi-google-tag-manager,GTM4WP,Analytics,Customer events (web pixels),built-in,low,wordpress.org,Tags move to custom pixels; checkout tracking uses the Shopify event model.
+pixelyoursite,PixelYourSite,Analytics,Customer events (web pixels) and channel apps,built-in,low,wordpress.org,
+google-site-kit,Site Kit by Google,Analytics,Google & YouTube channel,shopify-app,none,wordpress.org,
+b2bking,B2BKing,B2B,Shopify B2B catalogs (Plus) or a wholesale app,plus-only,high,premium or third-party,Native B2B price lists require Shopify Plus; on other plans a wholesale app is needed.
+woocommerce-wholesale-prices,Wholesale Prices,B2B,Shopify B2B catalogs (Plus) or a wholesale app,plus-only,high,wordpress.org,Native B2B price lists require Shopify Plus; on other plans a wholesale app is needed.
+yith-woocommerce-request-a-quote,YITH Request a Quote,B2B,Quote request app or draft orders,third-party-app,medium,wordpress.org,Quote flows move to an app; open quotes are handled manually.
+woocommerce-bookings,WooCommerce Bookings,Bookings,"Booking app (e.g. Sesami, BookThatApp)",third-party-app,high,premium or third-party,Future bookings and availability rules must be recreated in the booking app.
+woocommerce-composite-products,Composite Products,Bundles,Product builder app,third-party-app,high,premium or third-party,No native composite product type. Each composite needs a builder app or a redesign.
+woocommerce-product-bundles,Product Bundles,Bundles,"Shopify Bundles (free, by Shopify)",shopify-app,medium,premium or third-party,"Bundles are rebuilt as bundle products; fixed bundles map cleanly, mix-and-match needs an app."
+woocommerce-brands,WooCommerce Brands,Catalog,Vendor field or a brand metaobject,built-in,low,premium or third-party,Brand pages become collections or metaobject pages.
+facebook-for-woocommerce,Facebook for WooCommerce,Channels,Facebook & Instagram channel (by Meta),shopify-app,none,wordpress.org,
+google-listings-and-ads,Google Listings & Ads,Channels,Google & YouTube channel,shopify-app,low,wordpress.org,Product IDs change; Merchant Center history restarts unless mapped carefully.
+woo-product-feed-pro,Product Feed PRO,Channels,Google & YouTube channel,shopify-app,none,wordpress.org,
+woocommerce-checkout-field-editor,Checkout Field Editor,Checkout,Checkout UI extensions (Plus) or cart attributes,plus-only,medium,premium or third-party,Custom fields on checkout steps require Shopify Plus; fields on the cart page work on every plan.
+woo-checkout-field-editor-pro,Checkout Field Editor Pro,Checkout,Checkout UI extensions (Plus) or cart attributes,plus-only,medium,wordpress.org,Custom fields on checkout steps require Shopify Plus; fields on the cart page work on every plan.
+post-views-counter,Post Views Counter,Content,Not needed: Shopify analytics,not-needed,none,wordpress.org,
+wp-recipe-maker,WP Recipe Maker,Content,Blog articles with a recipe metaobject,built-in,medium,wordpress.org,Recipe cards and recipe schema need a metaobject and theme template.
+wp-recipe-maker-premium,WP Recipe Maker Premium,Content,Blog articles with a recipe metaobject,built-in,medium,premium or third-party,Recipe cards and recipe schema need a metaobject and theme template.
+advanced-custom-fields-pro,ACF Pro,Custom data,Metafields and metaobjects,built-in,medium,premium or third-party,Repeaters and flexible content map to metaobjects.
+advanced-custom-fields,Advanced Custom Fields,Custom data,Metafields and metaobjects,built-in,medium,wordpress.org,Each field group needs a metafield definition and theme placement.
+order-delivery-date,Order Delivery Date,Delivery,Delivery date app,third-party-app,low,premium or third-party,Delivery slots and blackout dates are recreated in the app.
+woo-discount-rules,Discount Rules,Discounts,Automatic discounts and discount apps,built-in,low,wordpress.org,Most rules map to automatic discounts; tiered logic may need a Functions-based app.
+woocommerce-dynamic-pricing,Dynamic Pricing,Discounts,Automatic discounts and discount apps,built-in,low,premium or third-party,Most rules map to automatic discounts; tiered logic may need a Functions-based app.
+woocommerce-smart-coupons,Smart Coupons,Discounts,Discount codes and native gift cards,built-in,low,premium or third-party,Store credit balances are recreated as gift cards.
+contact-form-7,Contact Form 7,Forms,Theme contact form or Shopify Forms,built-in,none,wordpress.org,
+gravityforms,Gravity Forms,Forms,Shopify Forms or a form builder app,third-party-app,low,premium or third-party,Multi-step or conditional forms need an app.
+wpforms-lite,WPForms,Forms,Theme contact form or Shopify Forms,built-in,none,wordpress.org,
+pw-woocommerce-gift-cards,PW Gift Cards,Gift cards,Native Shopify gift cards,built-in,medium,wordpress.org,Outstanding balances are recreated as Shopify gift cards.
+woocommerce-gift-cards,WooCommerce Gift Cards,Gift cards,Native Shopify gift cards,built-in,medium,premium or third-party,Outstanding balances are recreated as Shopify gift cards.
+jetpack,Jetpack,Infrastructure,Mostly not needed,not-needed,none,wordpress.org,
+woocommerce-currency-switcher,Currency Switcher (WOOCS),International,Shopify Markets,built-in,low,wordpress.org,Currencies and price rounding are configured per market.
+woocommerce-multi-currency,Multi Currency,International,Shopify Markets,built-in,low,premium or third-party,Currencies and price rounding are configured per market.
+woocommerce-german-market,German Market,Legal (EU),Native unit pricing plus a legal compliance app,third-party-app,medium,premium or third-party,Unit prices are native; legal texts and checkout wording need an app or theme work.
+woocommerce-germanized,Germanized,Legal (EU),Native unit pricing plus a legal compliance app,third-party-app,medium,wordpress.org,Unit prices are native; legal texts and checkout wording need an app or theme work.
+woocommerce-points-and-rewards,Points and Rewards,Loyalty,"Loyalty app (e.g. Smile, Rivo)",third-party-app,medium,premium or third-party,Customer point balances are imported into the loyalty app.
+automatewoo,AutomateWoo,Marketing,Shopify Flow with Shopify Email or Klaviyo,shopify-app,medium,premium or third-party,Each automation is rebuilt as a Flow workflow.
+klaviyo,Klaviyo,Marketing,Klaviyo for Shopify,third-party-app,low,wordpress.org,Flows keep working after reconnecting the account to Shopify.
+mailchimp-for-woocommerce,Mailchimp for WooCommerce,Marketing,"Mailchimp, Klaviyo or Shopify Email",third-party-app,low,wordpress.org,Consent status must be carried over with each customer.
+dokan-lite,Dokan,Marketplace,"Marketplace app (e.g. Shipturtle, Webkul)",no-equivalent,high,wordpress.org,Shopify has no native multi-vendor model. Vendor payouts and dashboards need a marketplace app; review fit first.
+wc-vendors,WC Vendors,Marketplace,Marketplace app,no-equivalent,high,wordpress.org,Shopify has no native multi-vendor model; review fit first.
+wc-multivendor-marketplace,WCFM Marketplace,Marketplace,Marketplace app,no-equivalent,high,wordpress.org,Shopify has no native multi-vendor model; review fit first.
+woocommerce-memberships,WooCommerce Memberships,Memberships,Membership app plus customer tags,third-party-app,high,premium or third-party,Member-only content and pricing need an app; member lists migrate as tagged customers.
+ti-woocommerce-wishlist,TI Wishlist,Merchandising,Wishlist app,third-party-app,none,wordpress.org,Saved wishlists are usually not migrated.
+yith-woocommerce-quick-view,YITH Quick View,Merchandising,Quick view in modern themes,built-in,none,wordpress.org,
+yith-woocommerce-wishlist,YITH Wishlist,Merchandising,Wishlist app,third-party-app,none,wordpress.org,Saved wishlists are usually not migrated.
+polylang,Polylang,Multilingual,Shopify Markets with Translate & Adapt,shopify-app,high,wordpress.org,Translations are imported per language; translated URLs and hreflang change structure.
+translatepress-multilingual,TranslatePress,Multilingual,Shopify Markets with Translate & Adapt,shopify-app,high,wordpress.org,Translations are imported per language; translated URLs and hreflang change structure.
+woocommerce-multilingual,WooCommerce Multilingual,Multilingual,Shopify Markets with Translate & Adapt,shopify-app,high,wordpress.org,Translations are imported per language; translated URLs and hreflang change structure.
+sitepress-multilingual-cms,WPML,Multilingual,Shopify Markets with Translate & Adapt,shopify-app,high,premium or third-party,Translations are imported per language; translated URLs and hreflang change structure.
+woocommerce-pdf-invoices-packing-slips,PDF Invoices & Packing Slips,Orders,"Order Printer (free, by Shopify)",shopify-app,none,wordpress.org,
+woocommerce-sequential-order-numbers,Sequential Order Numbers,Orders,Order ID format settings,built-in,none,wordpress.org,Historical order numbers are kept as order names.
+elementor,Elementor,Page builder,Theme editor sections and blocks,built-in,medium,wordpress.org,Designed pages are rebuilt in the theme; builder markup in descriptions is cleaned.
+elementor-pro,Elementor Pro,Page builder,Theme editor sections and blocks,built-in,medium,premium or third-party,Designed pages are rebuilt in the theme; builder markup in descriptions is cleaned.
+js_composer,WPBakery,Page builder,Theme editor sections and blocks,built-in,medium,premium or third-party,Shortcodes inside product descriptions must be cleaned during migration.
+klarna-payments-for-woocommerce,Klarna,Payments,Klarna via Shopify Payments or the Klarna app,built-in,none,wordpress.org,
+woocommerce-gateway-paypal-express-checkout,PayPal Checkout,Payments,PayPal in Shopify checkout,built-in,none,premium or third-party,
+woocommerce-paypal-payments,PayPal Payments,Payments,PayPal in Shopify checkout,built-in,none,wordpress.org,
+woocommerce-gateway-stripe,Stripe,Payments,Shopify Payments,built-in,none,wordpress.org,Saved cards do not transfer; customers re-enter them once.
+woocommerce-payments,WooPayments,Payments,Shopify Payments,built-in,none,wordpress.org,Saved cards do not transfer; customers re-enter them once.
+autoptimize,Autoptimize,Performance,Not needed: Shopify CDN and caching,not-needed,none,wordpress.org,
+litespeed-cache,LiteSpeed Cache,Performance,Not needed: Shopify CDN and caching,not-needed,none,wordpress.org,
+w3-total-cache,W3 Total Cache,Performance,Not needed: Shopify CDN and caching,not-needed,none,wordpress.org,
+wp-rocket,WP Rocket,Performance,Not needed: Shopify CDN and caching,not-needed,none,premium or third-party,
+complianz-gdpr,Complianz,Privacy,Native cookie banner (Customer Privacy API),built-in,none,wordpress.org,
+cookie-notice,Cookie Notice,Privacy,Native cookie banner (Customer Privacy API),built-in,none,wordpress.org,
+woocommerce-product-addons,Product Add-Ons,Product options,Product options app using line item properties,third-party-app,medium,premium or third-party,Add-ons that do not change stock become line item properties.
+woo-variation-swatches,Variation Swatches,Product options,Native swatches in modern themes,built-in,none,wordpress.org,Swatches come from option values and category metafields.
+customer-reviews-woocommerce,Customer Reviews (CusRev),Reviews,"Judge.me, Loox or Yotpo",third-party-app,low,wordpress.org,Reviews are exported and imported into the review app with ratings and dates.
+site-reviews,Site Reviews,Reviews,"Judge.me, Loox or Yotpo",third-party-app,low,wordpress.org,Reviews are exported and imported into the review app.
+woocommerce-ajax-filters,BeRocket Ajax Filters,Search & filters,"Search & Discovery (free, by Shopify)",shopify-app,none,wordpress.org,"Filters come from product options, vendor, type and metafields."
+elasticpress,ElasticPress,Search & filters,"Search & Discovery (free, by Shopify)",shopify-app,none,wordpress.org,
+ajax-search-for-woocommerce,FiboSearch,Search & filters,Native predictive search,built-in,none,wordpress.org,
+yith-woocommerce-ajax-product-filter,YITH Ajax Product Filter,Search & filters,"Search & Discovery (free, by Shopify)",shopify-app,none,premium or third-party,"Filters come from product options, vendor, type and metafields."
+recaptcha-woo,reCAPTCHA for WooCommerce,Security,Not needed: built-in bot protection,not-needed,none,wordpress.org,
+wordfence,Wordfence,Security,Not needed: platform security and PCI compliance,not-needed,none,wordpress.org,
+woocommerce-pre-orders,Pre-Orders,Selling,Pre-order app,third-party-app,low,premium or third-party,Open pre-orders should be fulfilled or exported before cutover.
+all-in-one-seo-pack,All in One SEO,SEO,Native SEO title and description fields,built-in,low,wordpress.org,"Titles and meta descriptions are migrated per product, category, page and post."
+seo-by-rank-math,Rank Math,SEO,Native SEO title and description fields,built-in,low,wordpress.org,"Titles and meta descriptions are migrated per product, category, page and post."
+redirection,Redirection,SEO,Native URL redirects,built-in,low,wordpress.org,Existing redirects are merged into the new 301 map.
+wordpress-seo,Yoast SEO,SEO,Native SEO title and description fields,built-in,low,wordpress.org,"Titles and meta descriptions are migrated per product, category, page and post."
+flexible-shipping,Flexible Shipping,Shipping,Shipping profiles or a rate app,built-in,medium,wordpress.org,Complex rules may need a rate calculator app.
+woocommerce-table-rate-shipping,Table Rate Shipping,Shipping,Shipping profiles or a rate app,built-in,medium,premium or third-party,Complex weight and class tables may need a rate calculator app.
+woocommerce-services,WooCommerce Shipping & Tax,Shipping,Shopify Shipping and Shopify Tax,built-in,low,wordpress.org,Shipping zones and rates are recreated in shipping profiles.
+instagram-feed,Instagram Feed,Social,Instagram feed app or theme section,third-party-app,none,wordpress.org,
+woocommerce-subscriptions,WooCommerce Subscriptions,Subscriptions,"Shopify Subscriptions (free, by Shopify) or Recharge",shopify-app,high,premium or third-party,Active subscriptions depend on stored payment tokens. They move only if your payment gateway supports token migration; plan this before anything else.
+woocommerce-avatax,AvaTax,Tax,Shopify Tax or Avalara for Shopify,third-party-app,low,premium or third-party,Tax exemptions for customers must be carried over.

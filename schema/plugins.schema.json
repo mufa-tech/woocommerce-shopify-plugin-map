@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/mufa-tech/woocommerce-shopify-plugin-map/main/schema/plugins.schema.json",
+  "title": "WooCommerce to Shopify plugin map",
+  "type": "object",
+  "required": ["version", "count", "plugins"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "count": { "type": "integer", "minimum": 0 },
+    "plugins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slug", "name", "category", "shopify_equivalent", "equivalent_type", "equivalent_type_label", "migration_risk", "notes", "distribution", "wordpress_org"],
+        "additionalProperties": false,
+        "properties": {
+          "slug": { "type": "string", "pattern": "^[a-z0-9_-]+$" },
+          "name": { "type": "string", "minLength": 1 },
+          "category": { "type": "string", "minLength": 1 },
+          "shopify_equivalent": { "type": "string", "minLength": 1 },
+          "equivalent_type": { "enum": ["built-in", "shopify-app", "third-party-app", "plus-only", "not-needed", "no-equivalent"] },
+          "equivalent_type_label": { "type": "string" },
+          "migration_risk": { "enum": ["none", "low", "medium", "high"] },
+          "notes": { "type": "string" },
+          "distribution": { "enum": ["wordpress.org", "premium or third-party"] },
+          "wordpress_org": { "type": ["string", "null"], "format": "uri" }
+        }
+      }
+    }
+  }
+}
