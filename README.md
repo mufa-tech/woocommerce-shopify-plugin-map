@@ -20,6 +20,31 @@ Raw JSON URL:
 https://raw.githubusercontent.com/mufa-tech/woocommerce-shopify-plugin-map/main/data/plugins.json
 ```
 
+## Install
+
+```
+npm install woocommerce-shopify-plugin-map
+```
+
+```js
+import { lookup, assess } from 'woocommerce-shopify-plugin-map';
+
+lookup('woocommerce-subscriptions').shopify_equivalent;
+// 'Shopify Subscriptions (free, by Shopify) or Recharge'
+
+// Slugs, plugin folder paths and asset URLs all work
+lookup('https://example.com/wp-content/plugins/wordpress-seo/js/dist/x.js').name;
+// 'Yoast SEO'
+
+const report = assess(['woocommerce-subscriptions', 'sitepress-multilingual-cms', 'wp-rocket', 'my-custom-plugin']);
+report.highestRisk; // 'high'
+report.byRisk;      // { none: 1, low: 0, medium: 0, high: 2 }
+report.unknown;     // ['my-custom-plugin']
+report.known;       // entries, highest migration risk first
+```
+
+Also exported: `plugins`, `categories`, `has`, `byRisk`, `byCategory`, `byEquivalentType` and `toSlug`. Works with `import` and `require`, ships TypeScript types, has no dependencies.
+
 ## Fields
 
 | Field | Meaning |
@@ -42,7 +67,7 @@ https://raw.githubusercontent.com/mufa-tech/woocommerce-shopify-plugin-map/main/
 - **medium**: needs planning, such as rebuilding shipping rules or mapping custom fields to metafields.
 - **high**: changes the data model or the Shopify plan, such as active subscriptions, multilingual URLs, marketplaces or B2B price lists.
 
-## Example
+## Example without npm
 
 ```js
 const res = await fetch('https://raw.githubusercontent.com/mufa-tech/woocommerce-shopify-plugin-map/main/data/plugins.json');
@@ -79,6 +104,6 @@ Shopify and the plugin ecosystem change often. If an entry is out of date or a c
 
 ## License
 
-The data is licensed under [Creative Commons Attribution 4.0](LICENSE). You can use it in commercial and non-commercial work, as long as you credit **Mufatech** with a link to https://studio.mufatech.com.
+The helper code is [MIT](LICENSE-CODE). The data is licensed under [Creative Commons Attribution 4.0](LICENSE). You can use it in commercial and non-commercial work, as long as you credit **Mufatech** with a link to https://studio.mufatech.com.
 
 Shopify and WooCommerce are trademarks of their respective owners. This project is not affiliated with or endorsed by either company.

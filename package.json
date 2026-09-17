@@ -1,0 +1,53 @@
+{
+  "name": "woocommerce-shopify-plugin-map",
+  "version": "1.0.0",
+  "description": "What replaces common WooCommerce plugins on Shopify, with migration risk levels. Data plus small lookup helpers.",
+  "keywords": [
+    "woocommerce",
+    "shopify",
+    "migration",
+    "wordpress",
+    "plugins",
+    "ecommerce",
+    "dataset"
+  ],
+  "homepage": "https://studio.mufatech.com/woocommerce-to-shopify/",
+  "bugs": "https://github.com/mufa-tech/woocommerce-shopify-plugin-map/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mufa-tech/woocommerce-shopify-plugin-map.git"
+  },
+  "license": "(MIT AND CC-BY-4.0)",
+  "author": "Mufatech (https://mufatech.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    },
+    "./data/plugins.json": "./data/plugins.json",
+    "./data/plugins.csv": "./data/plugins.csv",
+    "./schema/plugins.schema.json": "./schema/plugins.schema.json"
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "data",
+    "schema",
+    "LICENSE",
+    "LICENSE-CODE",
+    "CHANGELOG.md"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/index.test.mjs"
+  }
+}
