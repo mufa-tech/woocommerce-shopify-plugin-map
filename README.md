@@ -6,6 +6,8 @@ The map covers 88 widely used WooCommerce and WordPress plugins across payments,
 
 It is the same data that powers the free [WooCommerce to Shopify readiness scanner](https://studio.mufatech.com/migrate/).
 
+It ships with a command line tool that turns a site's plugin list into a migration plan, and a small library for using the data in code.
+
 ## Files
 
 | File | Format |
@@ -20,7 +22,44 @@ Raw JSON URL:
 https://raw.githubusercontent.com/mufa-tech/woocommerce-shopify-plugin-map/main/data/plugins.json
 ```
 
-## Install
+## Command line
+
+Turn a WordPress site's plugin list into a migration plan:
+
+```
+wp plugin list --field=name | npx woocommerce-shopify-plugin-map
+```
+
+```
+HIGH    WooCommerce Subscriptions → Shopify Subscriptions (free, by Shopify) or Recharge
+        Active subscriptions depend on stored payment tokens. They move only if your
+        payment gateway supports token migration. Guide: https://studio.mufatech.com/...
+HIGH    WPML → Shopify Markets with Translate & Adapt
+        Translations are imported per language; translated URLs and hreflang change structure.
+LOW     Yoast SEO → Native SEO title and description fields
+NONE    WP Rocket → Not needed: Shopify CDN and caching
+UNKNOWN my-custom-plugin
+
+4 of 5 plugins mapped · highest risk: HIGH
+2 high risk plugins decide most of the migration effort.
+```
+
+Input can be piped, passed as arguments or read from a file. Slugs, plugin folder
+paths and asset URLs all work, so `wp plugin list`, an `ls` of `wp-content/plugins`
+or a list of asset URLs from a crawl can go in as they are.
+
+| Option | What it does |
+|---|---|
+| `--markdown` | Markdown table, for pasting into a proposal |
+| `--json` | JSON, for scripts |
+| `--known` | Hide plugins that are not in the map |
+| `--file <path>` | Read the list from a file |
+| `--no-color` | Plain text |
+
+The command exits with code `2` when any plugin carries high migration risk, so it
+can gate a build or a checklist.
+
+## Library
 
 ```
 npm install woocommerce-shopify-plugin-map
@@ -59,6 +98,7 @@ Also exported: `plugins`, `categories`, `has`, `byRisk`, `byCategory`, `byEquiva
 | `notes` | What to plan for during the move |
 | `distribution` | `wordpress.org` or `premium or third-party` |
 | `wordpress_org` | Plugin page on WordPress.org, or `null` for premium plugins |
+| `guide` | In-depth migration guide for this kind of plugin, or `null` |
 
 ### Migration risk levels
 

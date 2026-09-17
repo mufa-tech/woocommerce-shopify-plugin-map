@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "count": 88,
   "plugins": [
     {
@@ -12,7 +12,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woocommerce-google-analytics-integration/"
+      "wordpress_org": "https://wordpress.org/plugins/woocommerce-google-analytics-integration/",
+      "guide": null
     },
     {
       "slug": "woocommerce-google-analytics-pro",
@@ -24,7 +25,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "duracelltomi-google-tag-manager",
@@ -36,7 +38,8 @@
       "migration_risk": "low",
       "notes": "Tags move to custom pixels; checkout tracking uses the Shopify event model.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/duracelltomi-google-tag-manager/"
+      "wordpress_org": "https://wordpress.org/plugins/duracelltomi-google-tag-manager/",
+      "guide": null
     },
     {
       "slug": "pixelyoursite",
@@ -48,7 +51,8 @@
       "migration_risk": "low",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/pixelyoursite/"
+      "wordpress_org": "https://wordpress.org/plugins/pixelyoursite/",
+      "guide": null
     },
     {
       "slug": "google-site-kit",
@@ -60,7 +64,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/google-site-kit/"
+      "wordpress_org": "https://wordpress.org/plugins/google-site-kit/",
+      "guide": null
     },
     {
       "slug": "b2bking",
@@ -72,7 +77,8 @@
       "migration_risk": "high",
       "notes": "Native B2B price lists require Shopify Plus; on other plans a wholesale app is needed.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "woocommerce-wholesale-prices",
@@ -84,7 +90,8 @@
       "migration_risk": "high",
       "notes": "Native B2B price lists require Shopify Plus; on other plans a wholesale app is needed.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woocommerce-wholesale-prices/"
+      "wordpress_org": "https://wordpress.org/plugins/woocommerce-wholesale-prices/",
+      "guide": null
     },
     {
       "slug": "yith-woocommerce-request-a-quote",
@@ -96,7 +103,8 @@
       "migration_risk": "medium",
       "notes": "Quote flows move to an app; open quotes are handled manually.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/yith-woocommerce-request-a-quote/"
+      "wordpress_org": "https://wordpress.org/plugins/yith-woocommerce-request-a-quote/",
+      "guide": null
     },
     {
       "slug": "woocommerce-bookings",
@@ -108,7 +116,8 @@
       "migration_risk": "high",
       "notes": "Future bookings and availability rules must be recreated in the booking app.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "woocommerce-composite-products",
@@ -120,7 +129,8 @@
       "migration_risk": "high",
       "notes": "No native composite product type. Each composite needs a builder app or a redesign.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/variations/"
     },
     {
       "slug": "woocommerce-product-bundles",
@@ -132,7 +142,8 @@
       "migration_risk": "medium",
       "notes": "Bundles are rebuilt as bundle products; fixed bundles map cleanly, mix-and-match needs an app.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/variations/"
     },
     {
       "slug": "woocommerce-brands",
@@ -144,7 +155,8 @@
       "migration_risk": "low",
       "notes": "Brand pages become collections or metaobject pages.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "facebook-for-woocommerce",
@@ -156,7 +168,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/facebook-for-woocommerce/"
+      "wordpress_org": "https://wordpress.org/plugins/facebook-for-woocommerce/",
+      "guide": null
     },
     {
       "slug": "google-listings-and-ads",
@@ -168,7 +181,8 @@
       "migration_risk": "low",
       "notes": "Product IDs change; Merchant Center history restarts unless mapped carefully.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/google-listings-and-ads/"
+      "wordpress_org": "https://wordpress.org/plugins/google-listings-and-ads/",
+      "guide": null
     },
     {
       "slug": "woo-product-feed-pro",
@@ -180,7 +194,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woo-product-feed-pro/"
+      "wordpress_org": "https://wordpress.org/plugins/woo-product-feed-pro/",
+      "guide": null
     },
     {
       "slug": "woocommerce-checkout-field-editor",
@@ -192,7 +207,8 @@
       "migration_risk": "medium",
       "notes": "Custom fields on checkout steps require Shopify Plus; fields on the cart page work on every plan.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "woo-checkout-field-editor-pro",
@@ -204,7 +220,8 @@
       "migration_risk": "medium",
       "notes": "Custom fields on checkout steps require Shopify Plus; fields on the cart page work on every plan.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woo-checkout-field-editor-pro/"
+      "wordpress_org": "https://wordpress.org/plugins/woo-checkout-field-editor-pro/",
+      "guide": null
     },
     {
       "slug": "post-views-counter",
@@ -216,7 +233,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/post-views-counter/"
+      "wordpress_org": "https://wordpress.org/plugins/post-views-counter/",
+      "guide": null
     },
     {
       "slug": "wp-recipe-maker",
@@ -228,7 +246,8 @@
       "migration_risk": "medium",
       "notes": "Recipe cards and recipe schema need a metaobject and theme template.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/wp-recipe-maker/"
+      "wordpress_org": "https://wordpress.org/plugins/wp-recipe-maker/",
+      "guide": null
     },
     {
       "slug": "wp-recipe-maker-premium",
@@ -240,7 +259,8 @@
       "migration_risk": "medium",
       "notes": "Recipe cards and recipe schema need a metaobject and theme template.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "advanced-custom-fields-pro",
@@ -252,7 +272,8 @@
       "migration_risk": "medium",
       "notes": "Repeaters and flexible content map to metaobjects.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "advanced-custom-fields",
@@ -264,7 +285,8 @@
       "migration_risk": "medium",
       "notes": "Each field group needs a metafield definition and theme placement.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/advanced-custom-fields/"
+      "wordpress_org": "https://wordpress.org/plugins/advanced-custom-fields/",
+      "guide": null
     },
     {
       "slug": "order-delivery-date",
@@ -276,7 +298,8 @@
       "migration_risk": "low",
       "notes": "Delivery slots and blackout dates are recreated in the app.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "woo-discount-rules",
@@ -288,7 +311,8 @@
       "migration_risk": "low",
       "notes": "Most rules map to automatic discounts; tiered logic may need a Functions-based app.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woo-discount-rules/"
+      "wordpress_org": "https://wordpress.org/plugins/woo-discount-rules/",
+      "guide": null
     },
     {
       "slug": "woocommerce-dynamic-pricing",
@@ -300,7 +324,8 @@
       "migration_risk": "low",
       "notes": "Most rules map to automatic discounts; tiered logic may need a Functions-based app.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "woocommerce-smart-coupons",
@@ -312,7 +337,8 @@
       "migration_risk": "low",
       "notes": "Store credit balances are recreated as gift cards.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "contact-form-7",
@@ -324,7 +350,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/contact-form-7/"
+      "wordpress_org": "https://wordpress.org/plugins/contact-form-7/",
+      "guide": null
     },
     {
       "slug": "gravityforms",
@@ -336,7 +363,8 @@
       "migration_risk": "low",
       "notes": "Multi-step or conditional forms need an app.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "wpforms-lite",
@@ -348,7 +376,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/wpforms-lite/"
+      "wordpress_org": "https://wordpress.org/plugins/wpforms-lite/",
+      "guide": null
     },
     {
       "slug": "pw-woocommerce-gift-cards",
@@ -360,7 +389,8 @@
       "migration_risk": "medium",
       "notes": "Outstanding balances are recreated as Shopify gift cards.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/pw-woocommerce-gift-cards/"
+      "wordpress_org": "https://wordpress.org/plugins/pw-woocommerce-gift-cards/",
+      "guide": null
     },
     {
       "slug": "woocommerce-gift-cards",
@@ -372,7 +402,8 @@
       "migration_risk": "medium",
       "notes": "Outstanding balances are recreated as Shopify gift cards.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "jetpack",
@@ -384,7 +415,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/jetpack/"
+      "wordpress_org": "https://wordpress.org/plugins/jetpack/",
+      "guide": null
     },
     {
       "slug": "woocommerce-currency-switcher",
@@ -396,7 +428,8 @@
       "migration_risk": "low",
       "notes": "Currencies and price rounding are configured per market.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woocommerce-currency-switcher/"
+      "wordpress_org": "https://wordpress.org/plugins/woocommerce-currency-switcher/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/multilingual/"
     },
     {
       "slug": "woocommerce-multi-currency",
@@ -408,7 +441,8 @@
       "migration_risk": "low",
       "notes": "Currencies and price rounding are configured per market.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/multilingual/"
     },
     {
       "slug": "woocommerce-german-market",
@@ -420,7 +454,8 @@
       "migration_risk": "medium",
       "notes": "Unit prices are native; legal texts and checkout wording need an app or theme work.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "woocommerce-germanized",
@@ -432,7 +467,8 @@
       "migration_risk": "medium",
       "notes": "Unit prices are native; legal texts and checkout wording need an app or theme work.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woocommerce-germanized/"
+      "wordpress_org": "https://wordpress.org/plugins/woocommerce-germanized/",
+      "guide": null
     },
     {
       "slug": "woocommerce-points-and-rewards",
@@ -444,7 +480,8 @@
       "migration_risk": "medium",
       "notes": "Customer point balances are imported into the loyalty app.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "automatewoo",
@@ -456,7 +493,8 @@
       "migration_risk": "medium",
       "notes": "Each automation is rebuilt as a Flow workflow.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "klaviyo",
@@ -468,7 +506,8 @@
       "migration_risk": "low",
       "notes": "Flows keep working after reconnecting the account to Shopify.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/klaviyo/"
+      "wordpress_org": "https://wordpress.org/plugins/klaviyo/",
+      "guide": null
     },
     {
       "slug": "mailchimp-for-woocommerce",
@@ -480,7 +519,8 @@
       "migration_risk": "low",
       "notes": "Consent status must be carried over with each customer.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/mailchimp-for-woocommerce/"
+      "wordpress_org": "https://wordpress.org/plugins/mailchimp-for-woocommerce/",
+      "guide": null
     },
     {
       "slug": "dokan-lite",
@@ -492,7 +532,8 @@
       "migration_risk": "high",
       "notes": "Shopify has no native multi-vendor model. Vendor payouts and dashboards need a marketplace app; review fit first.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/dokan-lite/"
+      "wordpress_org": "https://wordpress.org/plugins/dokan-lite/",
+      "guide": null
     },
     {
       "slug": "wc-vendors",
@@ -504,7 +545,8 @@
       "migration_risk": "high",
       "notes": "Shopify has no native multi-vendor model; review fit first.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/wc-vendors/"
+      "wordpress_org": "https://wordpress.org/plugins/wc-vendors/",
+      "guide": null
     },
     {
       "slug": "wc-multivendor-marketplace",
@@ -516,7 +558,8 @@
       "migration_risk": "high",
       "notes": "Shopify has no native multi-vendor model; review fit first.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/wc-multivendor-marketplace/"
+      "wordpress_org": "https://wordpress.org/plugins/wc-multivendor-marketplace/",
+      "guide": null
     },
     {
       "slug": "woocommerce-memberships",
@@ -528,7 +571,8 @@
       "migration_risk": "high",
       "notes": "Member-only content and pricing need an app; member lists migrate as tagged customers.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/subscriptions/"
     },
     {
       "slug": "ti-woocommerce-wishlist",
@@ -540,7 +584,8 @@
       "migration_risk": "none",
       "notes": "Saved wishlists are usually not migrated.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/ti-woocommerce-wishlist/"
+      "wordpress_org": "https://wordpress.org/plugins/ti-woocommerce-wishlist/",
+      "guide": null
     },
     {
       "slug": "yith-woocommerce-quick-view",
@@ -552,7 +597,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/yith-woocommerce-quick-view/"
+      "wordpress_org": "https://wordpress.org/plugins/yith-woocommerce-quick-view/",
+      "guide": null
     },
     {
       "slug": "yith-woocommerce-wishlist",
@@ -564,7 +610,8 @@
       "migration_risk": "none",
       "notes": "Saved wishlists are usually not migrated.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/yith-woocommerce-wishlist/"
+      "wordpress_org": "https://wordpress.org/plugins/yith-woocommerce-wishlist/",
+      "guide": null
     },
     {
       "slug": "polylang",
@@ -576,7 +623,8 @@
       "migration_risk": "high",
       "notes": "Translations are imported per language; translated URLs and hreflang change structure.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/polylang/"
+      "wordpress_org": "https://wordpress.org/plugins/polylang/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/multilingual/"
     },
     {
       "slug": "translatepress-multilingual",
@@ -588,7 +636,8 @@
       "migration_risk": "high",
       "notes": "Translations are imported per language; translated URLs and hreflang change structure.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/translatepress-multilingual/"
+      "wordpress_org": "https://wordpress.org/plugins/translatepress-multilingual/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/multilingual/"
     },
     {
       "slug": "woocommerce-multilingual",
@@ -600,7 +649,8 @@
       "migration_risk": "high",
       "notes": "Translations are imported per language; translated URLs and hreflang change structure.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woocommerce-multilingual/"
+      "wordpress_org": "https://wordpress.org/plugins/woocommerce-multilingual/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/multilingual/"
     },
     {
       "slug": "sitepress-multilingual-cms",
@@ -612,7 +662,8 @@
       "migration_risk": "high",
       "notes": "Translations are imported per language; translated URLs and hreflang change structure.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/multilingual/"
     },
     {
       "slug": "woocommerce-pdf-invoices-packing-slips",
@@ -624,7 +675,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woocommerce-pdf-invoices-packing-slips/"
+      "wordpress_org": "https://wordpress.org/plugins/woocommerce-pdf-invoices-packing-slips/",
+      "guide": null
     },
     {
       "slug": "woocommerce-sequential-order-numbers",
@@ -636,7 +688,8 @@
       "migration_risk": "none",
       "notes": "Historical order numbers are kept as order names.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woocommerce-sequential-order-numbers/"
+      "wordpress_org": "https://wordpress.org/plugins/woocommerce-sequential-order-numbers/",
+      "guide": null
     },
     {
       "slug": "elementor",
@@ -648,7 +701,8 @@
       "migration_risk": "medium",
       "notes": "Designed pages are rebuilt in the theme; builder markup in descriptions is cleaned.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/elementor/"
+      "wordpress_org": "https://wordpress.org/plugins/elementor/",
+      "guide": null
     },
     {
       "slug": "elementor-pro",
@@ -660,7 +714,8 @@
       "migration_risk": "medium",
       "notes": "Designed pages are rebuilt in the theme; builder markup in descriptions is cleaned.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "js_composer",
@@ -672,7 +727,8 @@
       "migration_risk": "medium",
       "notes": "Shortcodes inside product descriptions must be cleaned during migration.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "klarna-payments-for-woocommerce",
@@ -684,7 +740,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/klarna-payments-for-woocommerce/"
+      "wordpress_org": "https://wordpress.org/plugins/klarna-payments-for-woocommerce/",
+      "guide": null
     },
     {
       "slug": "woocommerce-gateway-paypal-express-checkout",
@@ -696,7 +753,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "woocommerce-paypal-payments",
@@ -708,7 +766,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woocommerce-paypal-payments/"
+      "wordpress_org": "https://wordpress.org/plugins/woocommerce-paypal-payments/",
+      "guide": null
     },
     {
       "slug": "woocommerce-gateway-stripe",
@@ -720,7 +779,8 @@
       "migration_risk": "none",
       "notes": "Saved cards do not transfer; customers re-enter them once.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woocommerce-gateway-stripe/"
+      "wordpress_org": "https://wordpress.org/plugins/woocommerce-gateway-stripe/",
+      "guide": null
     },
     {
       "slug": "woocommerce-payments",
@@ -732,7 +792,8 @@
       "migration_risk": "none",
       "notes": "Saved cards do not transfer; customers re-enter them once.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woocommerce-payments/"
+      "wordpress_org": "https://wordpress.org/plugins/woocommerce-payments/",
+      "guide": null
     },
     {
       "slug": "autoptimize",
@@ -744,7 +805,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/autoptimize/"
+      "wordpress_org": "https://wordpress.org/plugins/autoptimize/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/risks/"
     },
     {
       "slug": "litespeed-cache",
@@ -756,7 +818,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/litespeed-cache/"
+      "wordpress_org": "https://wordpress.org/plugins/litespeed-cache/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/risks/"
     },
     {
       "slug": "w3-total-cache",
@@ -768,7 +831,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/w3-total-cache/"
+      "wordpress_org": "https://wordpress.org/plugins/w3-total-cache/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/risks/"
     },
     {
       "slug": "wp-rocket",
@@ -780,7 +844,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/risks/"
     },
     {
       "slug": "complianz-gdpr",
@@ -792,7 +857,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/complianz-gdpr/"
+      "wordpress_org": "https://wordpress.org/plugins/complianz-gdpr/",
+      "guide": null
     },
     {
       "slug": "cookie-notice",
@@ -804,7 +870,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/cookie-notice/"
+      "wordpress_org": "https://wordpress.org/plugins/cookie-notice/",
+      "guide": null
     },
     {
       "slug": "woocommerce-product-addons",
@@ -816,7 +883,8 @@
       "migration_risk": "medium",
       "notes": "Add-ons that do not change stock become line item properties.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/variations/"
     },
     {
       "slug": "woo-variation-swatches",
@@ -828,7 +896,8 @@
       "migration_risk": "none",
       "notes": "Swatches come from option values and category metafields.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woo-variation-swatches/"
+      "wordpress_org": "https://wordpress.org/plugins/woo-variation-swatches/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/variations/"
     },
     {
       "slug": "customer-reviews-woocommerce",
@@ -840,7 +909,8 @@
       "migration_risk": "low",
       "notes": "Reviews are exported and imported into the review app with ratings and dates.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/customer-reviews-woocommerce/"
+      "wordpress_org": "https://wordpress.org/plugins/customer-reviews-woocommerce/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/reviews/"
     },
     {
       "slug": "site-reviews",
@@ -852,7 +922,8 @@
       "migration_risk": "low",
       "notes": "Reviews are exported and imported into the review app.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/site-reviews/"
+      "wordpress_org": "https://wordpress.org/plugins/site-reviews/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/reviews/"
     },
     {
       "slug": "woocommerce-ajax-filters",
@@ -864,7 +935,8 @@
       "migration_risk": "none",
       "notes": "Filters come from product options, vendor, type and metafields.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woocommerce-ajax-filters/"
+      "wordpress_org": "https://wordpress.org/plugins/woocommerce-ajax-filters/",
+      "guide": null
     },
     {
       "slug": "elasticpress",
@@ -876,7 +948,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/elasticpress/"
+      "wordpress_org": "https://wordpress.org/plugins/elasticpress/",
+      "guide": null
     },
     {
       "slug": "ajax-search-for-woocommerce",
@@ -888,7 +961,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/ajax-search-for-woocommerce/"
+      "wordpress_org": "https://wordpress.org/plugins/ajax-search-for-woocommerce/",
+      "guide": null
     },
     {
       "slug": "yith-woocommerce-ajax-product-filter",
@@ -900,7 +974,8 @@
       "migration_risk": "none",
       "notes": "Filters come from product options, vendor, type and metafields.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "recaptcha-woo",
@@ -912,7 +987,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/recaptcha-woo/"
+      "wordpress_org": "https://wordpress.org/plugins/recaptcha-woo/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/risks/"
     },
     {
       "slug": "wordfence",
@@ -924,7 +1000,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/wordfence/"
+      "wordpress_org": "https://wordpress.org/plugins/wordfence/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/risks/"
     },
     {
       "slug": "woocommerce-pre-orders",
@@ -936,7 +1013,8 @@
       "migration_risk": "low",
       "notes": "Open pre-orders should be fulfilled or exported before cutover.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "all-in-one-seo-pack",
@@ -948,7 +1026,8 @@
       "migration_risk": "low",
       "notes": "Titles and meta descriptions are migrated per product, category, page and post.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/all-in-one-seo-pack/"
+      "wordpress_org": "https://wordpress.org/plugins/all-in-one-seo-pack/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/seo-fields/"
     },
     {
       "slug": "seo-by-rank-math",
@@ -960,7 +1039,8 @@
       "migration_risk": "low",
       "notes": "Titles and meta descriptions are migrated per product, category, page and post.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/seo-by-rank-math/"
+      "wordpress_org": "https://wordpress.org/plugins/seo-by-rank-math/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/seo-fields/"
     },
     {
       "slug": "redirection",
@@ -972,7 +1052,8 @@
       "migration_risk": "low",
       "notes": "Existing redirects are merged into the new 301 map.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/redirection/"
+      "wordpress_org": "https://wordpress.org/plugins/redirection/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/redirects/"
     },
     {
       "slug": "wordpress-seo",
@@ -984,7 +1065,8 @@
       "migration_risk": "low",
       "notes": "Titles and meta descriptions are migrated per product, category, page and post.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/wordpress-seo/"
+      "wordpress_org": "https://wordpress.org/plugins/wordpress-seo/",
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/seo-fields/"
     },
     {
       "slug": "flexible-shipping",
@@ -996,7 +1078,8 @@
       "migration_risk": "medium",
       "notes": "Complex rules may need a rate calculator app.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/flexible-shipping/"
+      "wordpress_org": "https://wordpress.org/plugins/flexible-shipping/",
+      "guide": null
     },
     {
       "slug": "woocommerce-table-rate-shipping",
@@ -1008,7 +1091,8 @@
       "migration_risk": "medium",
       "notes": "Complex weight and class tables may need a rate calculator app.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     },
     {
       "slug": "woocommerce-services",
@@ -1020,7 +1104,8 @@
       "migration_risk": "low",
       "notes": "Shipping zones and rates are recreated in shipping profiles.",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/woocommerce-services/"
+      "wordpress_org": "https://wordpress.org/plugins/woocommerce-services/",
+      "guide": null
     },
     {
       "slug": "instagram-feed",
@@ -1032,7 +1117,8 @@
       "migration_risk": "none",
       "notes": "",
       "distribution": "wordpress.org",
-      "wordpress_org": "https://wordpress.org/plugins/instagram-feed/"
+      "wordpress_org": "https://wordpress.org/plugins/instagram-feed/",
+      "guide": null
     },
     {
       "slug": "woocommerce-subscriptions",
@@ -1044,7 +1130,8 @@
       "migration_risk": "high",
       "notes": "Active subscriptions depend on stored payment tokens. They move only if your payment gateway supports token migration; plan this before anything else.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/subscriptions/"
     },
     {
       "slug": "woocommerce-avatax",
@@ -1056,7 +1143,8 @@
       "migration_risk": "low",
       "notes": "Tax exemptions for customers must be carried over.",
       "distribution": "premium or third-party",
-      "wordpress_org": null
+      "wordpress_org": null,
+      "guide": null
     }
   ]
 }

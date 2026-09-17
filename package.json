@@ -1,7 +1,7 @@
 {
   "name": "woocommerce-shopify-plugin-map",
-  "version": "1.0.0",
-  "description": "What replaces common WooCommerce plugins on Shopify, with migration risk levels. Data plus small lookup helpers.",
+  "version": "1.1.0",
+  "description": "Turn a WordPress plugin list into a WooCommerce → Shopify migration plan. CLI, library and open dataset.",
   "keywords": [
     "woocommerce",
     "shopify",
@@ -9,7 +9,9 @@
     "wordpress",
     "plugins",
     "ecommerce",
-    "dataset"
+    "dataset",
+    "cli",
+    "wp-cli"
   ],
   "homepage": "https://studio.mufatech.com/woocommerce-to-shopify/",
   "bugs": "https://github.com/mufa-tech/woocommerce-shopify-plugin-map/issues",
@@ -34,6 +36,7 @@
     "./schema/plugins.schema.json": "./schema/plugins.schema.json"
   },
   "files": [
+    "bin",
     "index.mjs",
     "index.cjs",
     "index.d.ts",
@@ -48,6 +51,10 @@
     "node": ">=18"
   },
   "scripts": {
-    "test": "node --test test/index.test.mjs"
+    "test": "node --test test/index.test.mjs test/cli.test.mjs"
+  },
+  "bin": {
+    "woocommerce-shopify-plugin-map": "./bin/cli.mjs",
+    "wc-shopify-map": "./bin/cli.mjs"
   }
 }
