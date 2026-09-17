@@ -57,6 +57,22 @@ for (const slug of installed) {
 }
 ```
 
+## Related guides
+
+Some plugin categories need more than an app swap. These guides cover them in depth, with sources:
+
+| If the store uses | Read |
+|---|---|
+| WooCommerce Subscriptions | [Migrating subscriptions without asking customers to re-subscribe](https://studio.mufatech.com/woocommerce-to-shopify/subscriptions/) |
+| WPML, Polylang | [Migrating a multilingual store](https://studio.mufatech.com/woocommerce-to-shopify/multilingual/) |
+| Yoast SEO, Rank Math | [Moving SEO titles, descriptions and alt text](https://studio.mufatech.com/woocommerce-to-shopify/seo-fields/) |
+| Redirection, any permalink setup | [301 redirects and the URL map](https://studio.mufatech.com/woocommerce-to-shopify/redirects/), with a redirect CSV generator |
+| Review plugins | [Moving reviews to Judge.me, Loox or Yotpo](https://studio.mufatech.com/woocommerce-to-shopify/reviews/) |
+| Variation and product add-on plugins | [Variations and Shopify's 3-option limit](https://studio.mufatech.com/woocommerce-to-shopify/variations/) |
+| Customer accounts, membership plugins | [Customer accounts and passwords](https://studio.mufatech.com/woocommerce-to-shopify/customers/) |
+
+All guides, including cost and a 48-step checklist: [studio.mufatech.com/woocommerce-to-shopify](https://studio.mufatech.com/woocommerce-to-shopify/).
+
 ## Corrections and additions
 
 Shopify and the plugin ecosystem change often. If an entry is out of date or a common plugin is missing, open an issue or a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md).
