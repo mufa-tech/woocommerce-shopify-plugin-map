@@ -533,7 +533,7 @@
       "notes": "Shopify has no native multi-vendor model. Vendor payouts and dashboards need a marketplace app; review fit first.",
       "distribution": "wordpress.org",
       "wordpress_org": "https://wordpress.org/plugins/dokan-lite/",
-      "guide": null
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/plugins/marketplaces/"
     },
     {
       "slug": "wc-vendors",
@@ -546,7 +546,7 @@
       "notes": "Shopify has no native multi-vendor model; review fit first.",
       "distribution": "wordpress.org",
       "wordpress_org": "https://wordpress.org/plugins/wc-vendors/",
-      "guide": null
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/plugins/marketplaces/"
     },
     {
       "slug": "wc-multivendor-marketplace",
@@ -559,7 +559,7 @@
       "notes": "Shopify has no native multi-vendor model; review fit first.",
       "distribution": "wordpress.org",
       "wordpress_org": "https://wordpress.org/plugins/wc-multivendor-marketplace/",
-      "guide": null
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/plugins/marketplaces/"
     },
     {
       "slug": "woocommerce-memberships",

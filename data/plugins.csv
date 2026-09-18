@@ -39,9 +39,9 @@ woocommerce-points-and-rewards,Points and Rewards,Loyalty,"Loyalty app (e.g. Smi
 automatewoo,AutomateWoo,Marketing,Shopify Flow with Shopify Email or Klaviyo,shopify-app,medium,premium or third-party,Each automation is rebuilt as a Flow workflow.,
 klaviyo,Klaviyo,Marketing,Klaviyo for Shopify,third-party-app,low,wordpress.org,Flows keep working after reconnecting the account to Shopify.,
 mailchimp-for-woocommerce,Mailchimp for WooCommerce,Marketing,"Mailchimp, Klaviyo or Shopify Email",third-party-app,low,wordpress.org,Consent status must be carried over with each customer.,
-dokan-lite,Dokan,Marketplace,"Marketplace app (e.g. Shipturtle, Webkul)",no-equivalent,high,wordpress.org,Shopify has no native multi-vendor model. Vendor payouts and dashboards need a marketplace app; review fit first.,
-wc-vendors,WC Vendors,Marketplace,Marketplace app,no-equivalent,high,wordpress.org,Shopify has no native multi-vendor model; review fit first.,
-wc-multivendor-marketplace,WCFM Marketplace,Marketplace,Marketplace app,no-equivalent,high,wordpress.org,Shopify has no native multi-vendor model; review fit first.,
+dokan-lite,Dokan,Marketplace,"Marketplace app (e.g. Shipturtle, Webkul)",no-equivalent,high,wordpress.org,Shopify has no native multi-vendor model. Vendor payouts and dashboards need a marketplace app; review fit first.,https://studio.mufatech.com/woocommerce-to-shopify/plugins/marketplaces/
+wc-vendors,WC Vendors,Marketplace,Marketplace app,no-equivalent,high,wordpress.org,Shopify has no native multi-vendor model; review fit first.,https://studio.mufatech.com/woocommerce-to-shopify/plugins/marketplaces/
+wc-multivendor-marketplace,WCFM Marketplace,Marketplace,Marketplace app,no-equivalent,high,wordpress.org,Shopify has no native multi-vendor model; review fit first.,https://studio.mufatech.com/woocommerce-to-shopify/plugins/marketplaces/
 woocommerce-memberships,WooCommerce Memberships,Memberships,Membership app plus customer tags,third-party-app,high,premium or third-party,Member-only content and pricing need an app; member lists migrate as tagged customers.,https://studio.mufatech.com/woocommerce-to-shopify/subscriptions/
 ti-woocommerce-wishlist,TI Wishlist,Merchandising,Wishlist app,third-party-app,none,wordpress.org,Saved wishlists are usually not migrated.,
 yith-woocommerce-quick-view,YITH Quick View,Merchandising,Quick view in modern themes,built-in,none,wordpress.org,,
