@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "count": 88,
   "plugins": [
     {
@@ -71,27 +71,27 @@
       "slug": "b2bking",
       "name": "B2BKing",
       "category": "B2B",
-      "shopify_equivalent": "Shopify B2B catalogs (Plus) or a wholesale app",
-      "equivalent_type": "plus-only",
-      "equivalent_type_label": "Shopify Plus or an app",
+      "shopify_equivalent": "Shopify B2B: companies, catalogs and net terms (all plans since April 2026)",
+      "equivalent_type": "built-in",
+      "equivalent_type_label": "Built into Shopify",
       "migration_risk": "high",
-      "notes": "Native B2B price lists require Shopify Plus; on other plans a wholesale app is needed.",
+      "notes": "Groups become companies and catalogs; dynamic rules are rebuilt as catalog prices, quantity rules and payment terms. Standard plans allow 3 active catalogs; per-customer price lists beyond that need Shopify Plus.",
       "distribution": "premium or third-party",
       "wordpress_org": null,
-      "guide": null
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/plugins/b2b/"
     },
     {
       "slug": "woocommerce-wholesale-prices",
       "name": "Wholesale Prices",
       "category": "B2B",
-      "shopify_equivalent": "Shopify B2B catalogs (Plus) or a wholesale app",
-      "equivalent_type": "plus-only",
-      "equivalent_type_label": "Shopify Plus or an app",
+      "shopify_equivalent": "Shopify B2B: companies, catalogs and net terms (all plans since April 2026)",
+      "equivalent_type": "built-in",
+      "equivalent_type_label": "Built into Shopify",
       "migration_risk": "high",
-      "notes": "Native B2B price lists require Shopify Plus; on other plans a wholesale app is needed.",
+      "notes": "Wholesale roles become companies and locations, role prices become catalogs. Standard plans allow 3 active catalogs; per-customer price lists beyond that need Shopify Plus.",
       "distribution": "wordpress.org",
       "wordpress_org": "https://wordpress.org/plugins/woocommerce-wholesale-prices/",
-      "guide": null
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/plugins/b2b/"
     },
     {
       "slug": "yith-woocommerce-request-a-quote",
@@ -104,7 +104,7 @@
       "notes": "Quote flows move to an app; open quotes are handled manually.",
       "distribution": "wordpress.org",
       "wordpress_org": "https://wordpress.org/plugins/yith-woocommerce-request-a-quote/",
-      "guide": null
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/plugins/b2b/"
     },
     {
       "slug": "woocommerce-bookings",

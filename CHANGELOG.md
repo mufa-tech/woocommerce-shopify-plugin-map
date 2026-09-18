@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0 (2026-09-19)
+
+- Dataset v3: B2BKing and Wholesale Prices now map to Shopify B2B as a built-in feature. Shopify moved companies, catalogs, payment terms and volume pricing to every plan on 2 April 2026, with a 3-catalog limit below Plus. Notes updated accordingly.
+- B2B entries link to the new in-depth migration page.
+
 ## 1.1.0 (2026-09-18)
 
 - New command line tool: pipe `wp plugin list` in, get a migration plan out, with text, `--markdown` and `--json` output. Exits 2 on high migration risk.
