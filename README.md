@@ -45,6 +45,8 @@ equivalent, a migration risk level and a note on what to plan for.
 The same data powers the free
 [WooCommerce to Shopify readiness scanner](https://studio.mufatech.com/migrate/).
 
+**Read the write-up:** [Plugin count is a terrible way to size a WooCommerce migration. Here's the data.](https://dev.to/mufatech/plugin-count-is-a-terrible-way-to-size-a-woocommerce-migration-heres-the-data-4on9) — what the distribution looks like, which 13 plugins drive most of the cost, and why.
+
 ## Command line
 
 No installation needed:
