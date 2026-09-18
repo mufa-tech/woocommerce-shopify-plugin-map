@@ -117,20 +117,20 @@
       "notes": "Future bookings and availability rules must be recreated in the booking app.",
       "distribution": "premium or third-party",
       "wordpress_org": null,
-      "guide": null
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/plugins/bookings/"
     },
     {
       "slug": "woocommerce-composite-products",
       "name": "Composite Products",
       "category": "Bundles",
-      "shopify_equivalent": "Product builder app",
-      "equivalent_type": "third-party-app",
-      "equivalent_type_label": "Third-party app",
+      "shopify_equivalent": "Shopify Bundles dynamic bundles (free, by Shopify) or a bundle builder app",
+      "equivalent_type": "shopify-app",
+      "equivalent_type_label": "App made by Shopify",
       "migration_risk": "high",
-      "notes": "No native composite product type. Each composite needs a builder app or a redesign.",
+      "notes": "Components become bundle components (up to 150 in a dynamic bundle, 100 variants per bundle). Priced-individually composites and conditional scenarios need a bundle builder app.",
       "distribution": "premium or third-party",
       "wordpress_org": null,
-      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/variations/"
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/plugins/bundles/"
     },
     {
       "slug": "woocommerce-product-bundles",
@@ -143,7 +143,7 @@
       "notes": "Bundles are rebuilt as bundle products; fixed bundles map cleanly, mix-and-match needs an app.",
       "distribution": "premium or third-party",
       "wordpress_org": null,
-      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/variations/"
+      "guide": "https://studio.mufatech.com/woocommerce-to-shopify/plugins/bundles/"
     },
     {
       "slug": "woocommerce-brands",
